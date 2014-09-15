@@ -26,17 +26,6 @@ void draw()
 	{
 		credits = credits - bet;
 	}
-	text("Credits ------------ " + credits, 40, 340);
-	text("Bet ---------------- " + bet, 40, 360);
-    text("Probability -------- " + prob, 40, 380);
-    fill(255);
-    rect(200,320,165,20);
-    rect(200,345,165,20);
-    rect(200,370,165,20);
-    fill(0);
-    text("INCREASE BET BY 10",201,331);
-    text("DECREASE BET BY 10",201,356);
-    text("BUY 1 CHANCE ENHANCER",201,381);
 }
 void mousePressed()
 {
